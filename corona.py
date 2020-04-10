@@ -1,0 +1,35 @@
+print("                                COVID-19")
+print("INTRODUCTION:")
+print("Covid-19 is a dreadful disease caused due to viral infection,which is currently scaring even the wealyhier nations of the world . Corona virus is responsible for causing Covid-19.Corona virus is not a single virus but it is one of the types of viruses.")
+print("Viruses are generally non-living organisms which on encounters with the living system becomes living and viable of causing diseases.Other examples for viral diseases are chicken pox(due to pox virus),SARS and MARS(caused due to corona viruses self).")
+print("TYPES OF VIRUS:")
+print("The viruses are classified based on their shape, affecting tendency,etc.,")
+print("press 1----to know about CORONA,press 2-----To know the symptoms,press 3--To Remedial measures:)")
+n={1:"About CORONA",2:"SYMPTOMS OF CORONA",3:"REMEDIAL MEASURES"}
+key=eval(input())
+if key==1:
+    print("ABOUT CORONA:")
+    print("Corona or Novel corona is a virus responsible for causing the Covid-19.As per Indian scientific research, this disease spreads through droplets like sputum,mucous of infected person to another.")
+    print("As per today(10 Apr 2020), More than 15 lakh peoples are affected and nearly 80,000 peoples lost their lifes.")
+if key==2:
+    print("SYMPTOMS:")
+    print("generally Covid-19 is characterized by common cold's symptoms")
+    print("People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings.")    
+    print("The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention")
+if key==3:
+    print("REMEDIAL MEASURES:")
+    print("press 1--To get NATURAL REMEDIES, press 2--- To get MEDICIAL REMEDIES")
+    e=eval(input())
+    if e==1:
+        print("NATURAL REMEDIES")
+        print("We Indians would not go to hospital if we are encountered with chicken pox(which is also a viral infection,mentioned before) but use neem tree leaves and turmeric( has pigment called cucurmin which is the property for yellow colour in turmeric. Cucurmin has antiviral and also anticarcinogenic properties) to cure the disease by keeping the pox affected individuals at home.We also know that chicken pox would not come if once it has affected to an individual.")
+        print("Like the same Corona virus would not counter-affect the individual once again as it is also a virus.Generally our body produces antibodies to kill the antigens(ie., virus ) at the first time attack of antigens.Then after several period of recognition of antigens, by lock and key concept,The antibody is produced in the body which binds with the outer coating( the thread like structures on the viral body)of the virus and kills the virus.and after the viral infection,the viral attack is kept as memory.This memory helps to identify the counter-attack of the same virus and kills it with the antibodies produced before")
+        print("Useage of sour delicacies,turmeric,neem flowers(in Andhra they use to take it during ugadhi,telugu New-Year) in our food to abstrain from viral infections.")
+    if e==2:
+        print("MEDICAL REMEDIES")
+        print("abstrain from Smoking,Wearing multiple masks,Taking antibiotics like hydrochloroquine(prescribed by doctors to cure dengue,which is predominantly and widely produced in India.)are some measures.")
+        print("  there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care,since they are supported by them for their breathimg after all.")
+        print("Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.")
+print("CONCLUSION:")
+print("              After all following the lockdown announced by the government and helping the government by staying home,wearing masks while going out for basic needs,using alcohol based hand sanitizers,washing the hands frequently,wearing clean clothes,daily twice bathing,Self hygine,abstraing from group events are the basic measures to keep us safe from corona.")
+print("WITH REGARDS: VISHAL SIVAKUMAR----I YEAR CIVIL ENGINEERING-------MEPCO SCHLENK ENGINEERING COLLEGE,SIVAKASI,VIRUDHUNAGAR DISTRICT,TAMILNADU,INDIA")
